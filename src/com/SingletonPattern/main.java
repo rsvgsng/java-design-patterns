@@ -10,6 +10,11 @@ public class main {
         System.out.println(l.hashCode());
         System.out.println(l2.hashCode());
 
+
+//        Eager way of implementing the singleton pattern
+        System.out.println(OtherWay.getInstance().hashCode());
+        System.out.println(OtherWay.getInstance().hashCode());
+
         l.log("Logging with l as the instance");
         l2.log("Logging with l2 as the same instance of the class");
     }
