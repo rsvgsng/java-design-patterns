@@ -2,7 +2,7 @@ package com.factoryPattern;
 
 public class EmployeeFactory {
 //    get the employee
-    public  static  Employee getEmployee(String empType){
+    public   static  Employee getEmployee(String empType){
         if(empType == null){
             return  null;
         }

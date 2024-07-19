@@ -15,7 +15,7 @@ public class Logger {
 
         public  static  Logger  getLogger(){
             /*
-                1. Check if the instance doesnot exist already
+                1. Check if the instance does not exist already
                 2. If it does not exist, create a new instance
                 3. Return the newly created instance
              */
